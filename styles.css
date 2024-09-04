@@ -23,3 +23,23 @@ h1 {
 a {
     text-decoration: none;
 }
+
+.recipe-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+#description, #ingredients, #steps {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#description p {
+    font-size: 26px;
+}
+
+#description {
+    padding-bottom: 25px;
+}
