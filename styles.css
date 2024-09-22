@@ -1,7 +1,7 @@
 * {
     font-family: Helvetica, sans-serif;
     color: black;
-    background-color: #a6e0c6;
+    background-color: #bbeddb;
 }
 
 h1 {
@@ -35,12 +35,10 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
 }
 
 #description, #ingredients, #steps {
-    padding-left: 20%;
-    padding-right: 20%;
+    margin: auto 20%;
 }
 
 #description p {
@@ -48,5 +46,18 @@ a {
 }
 
 #description {
-    padding-bottom: 25px;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+div h2, div h3 {
+    background-color: #2b2854;
+    color: white;
+    padding: 20px 15px;
+}
+
+#ingredients, #steps {
+    border: #2b2854 2px solid;
+    border-top: none;
+    margin: 30px 20%;
 }
